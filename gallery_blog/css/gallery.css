@@ -2,13 +2,13 @@ img{
 	width:30%;
 	float:left;
 	margin:1.66%;
+	transition: transform .2s; /* Animation */
 }
 
 p {
     font-family: Raleway;
-    margin-left: 1.66%;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 300;
     border-bottom: 2px solid #f1f1f1;
     padding-bottom: 20px;
 }
@@ -16,7 +16,6 @@ p {
 h1{
 
     font-family: Raleway;
-    margin-left: 1.66%;
     font-size: 23px;
     font-weight: 800;
     text-transform: uppercase;
@@ -30,3 +29,6 @@ margin-left: 20%;
 line-height: 30px;
 }
 
+img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
